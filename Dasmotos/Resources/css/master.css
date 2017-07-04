@@ -1,0 +1,38 @@
+/*Classes are written individually in case customer wants to change different headers individually */
+h1 {
+  color: khaki;
+  background-image: url(../images/pattern.jpeg);
+  /*background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);*/
+  font-size: 100px;
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/*Client requested Classes below are set individually, so I avoided putting general statements in above classes */
+.Brushes > h2 {
+  color: white;
+  background-color: MediumSpringGreen;
+}
+
+.Frames > h2 {
+  color:white;
+  background-color: LightCoral;
+}
+
+.Paint > h2 {
+  color:white;
+  background-color: skyblue;
+}
+
+.price {
+  color: blue;
+  font-family: helvetica;
+  font-weight: bold;
+}
